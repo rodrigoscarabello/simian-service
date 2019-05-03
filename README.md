@@ -8,6 +8,7 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 ## Executando API em ambiente local
 #### Recursos necessários:
 
+  - Java 8
   - Docker
   - Docker Compose
   
@@ -51,11 +52,11 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 		"count_human_dna": 100
 	}
     ```
-## Amazon AWS
-API foi disponibilizada no cloud da Amazon AWS e pode ser acessada atravéz das urls:
+## Google App Engine
+API foi disponibilizada no Google App Engine e pode ser acessada atravéz das urls:
 
-- 
-- 
+- http://35.190.153.29/simian
+- http://35.190.153.29/stats
 
 ## Especificações da arquitetura utilizada
 - IntelliJ IDEA;
