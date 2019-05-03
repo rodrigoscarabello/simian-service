@@ -3,7 +3,7 @@
 Em um futuro distante, na cadeia de evolução, os símios e os humanos estão cada vez mais próximos.
 Por esse motivo ficou muito difícil distinguir quem é humano e quem é símio. \
 Esta API Rest é capaz de identificar se uma sequência de DNA pertence a um humano ou um símio. \
-Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguais nas direções horizontais, verticis ou diagonais.
+Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguais nas direções horizontais, verticais ou diagonais.
 
 ## Executando API em ambiente local
 #### Recursos necessários:
@@ -20,7 +20,7 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 
 ## Testando a API
 
-- A API dispões de dois serviços `` /simian `` e `` /stats ``
+- A API disponibiliza dois serviços `` /simian `` e `` /stats ``
 - O serviço `` /simian `` deve receber uma sequência de DNA através de um HTTP POST com um JSON que contém o seguinte formato, exemplo:
 
 	```
@@ -29,7 +29,7 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 	}
 	```
 	- Caso a sequência seja de um símio, o serviço retornará HTTP Status 200-OK.
-	- Caso contrário deverá receber HTTP Status 403-FORBIDDEN
+	- Caso contrário retornará HTTP Status 403-FORBIDDEN.
  
 	###### Exemplo
 	``` 
@@ -53,7 +53,7 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 	}
     ```
 ## Google App Engine
-API foi disponibilizada no Google App Engine e pode ser acessada atravéz das urls:
+API foi disponibilizada no Google App Engine e pode ser acessada atravéz das URL`s:
 
 - http://35.190.153.29/simian
 - http://35.190.153.29/stats
@@ -62,9 +62,9 @@ API foi disponibilizada no Google App Engine e pode ser acessada atravéz das ur
 - IntelliJ IDEA;
 - Spring Boot;
 - Java 8;
-- Maven
-- JUnit
-- Spring Boot Test
-- Mongo
-- Docker
-- Docker Compose
+- Maven;
+- JUnit;
+- Spring Boot Test;
+- MongoDB;
+- Docker;
+- Docker Compose.
