@@ -55,8 +55,8 @@ Um DNA símio será aquele que contiver mais de uma sequência de 4 letras iguai
 ## Google App Engine
 API foi disponibilizada no Google App Engine e pode ser acessada atravéz das URL`s:
 
-- http://35.190.153.29/simian
-- http://35.190.153.29/stats
+- http://35.247.248.154/simian
+- http://35.247.248.154/stats
 
 ## Especificações da arquitetura utilizada
 - IntelliJ IDEA;
